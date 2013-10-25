@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FEFEFE"
+    android:orientation="horizontal" >
+    
+    <Button
+        android:id="@+id/createVideoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="48dip"
+        android:layout_weight="1"
+        android:onClick="onClickCreateVideo"
+        android:text="@string/create_video" />
+    
+    <ProgressBar 
+        android:id="@+id/createProgress"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:visibility="invisible" />
+    
+    <Button 
+        android:id="@+id/watchVideoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="48dip"
+        android:layout_weight="1"
+        android:onClick="onClickWatchVideo"
+        android:text="@string/watch_encoded_video"
+        android:enabled="false" />
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MediaCodecDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="create_video">Create video</string>
+    <string name="watch_encoded_video">Watch encoded video</string>
+
+</resources>
